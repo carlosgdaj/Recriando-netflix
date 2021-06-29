@@ -1,0 +1,168 @@
+:root{
+    --azul:rgb(50, 154, 252);
+    --branco: white;
+}
+
+*{
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(3, 3, 3);
+}
+.container{
+    background: linear-gradient(
+        180deg,
+        rgb(5, 5, 5),
+        rgba(10, 10, 10, 0%)
+    );
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0 1.5rem;
+    position: fixed;
+    height: 4rem;
+    width: 100%;
+    z-index: 100;
+}
+.container h2{
+    color: rgb(50, 154, 252);
+    position:absolute;
+    left: 2rem;
+    cursor: pointer;
+}
+.logo2{
+    color: rgb(255, 255, 255);
+    font-size: 1.2rem;
+}
+.menu{
+    display: flex;
+    height: 100%;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+}
+a{
+    color:  rgb(50, 154, 252);
+    padding: 1.8rem 3rem ;
+    font-size: 1rem;
+    font-weight: 700;   
+}
+a:hover{
+    color: white;
+    cursor: pointer;
+    border-radius: 0.3rem;
+}
+
+.icon-Search{
+    color: var(--branco);
+    position: absolute;
+    right: 4.5rem;
+    cursor: pointer;
+}
+.icon-NotificationBell{
+    color: var(--branco);
+    position: absolute;
+    right: 2rem;
+    cursor: pointer;
+}
+.icon-NotificationBell:hover{
+    color: var(--azul);
+}
+.icon-Search:hover{
+    color: var(--azul);
+}
+.img-fundo{
+  width: 100%;
+}
+.bgimg{
+    position: absolute;
+    z-index: -1;
+}
+.titulo{
+    text-align: center;
+    font-size: 4rem;
+    color: white;
+    text-shadow: 2px 2px black ;
+}
+
+.tituloebutoes{
+    position: absolute;
+    left: 2rem;
+    top: 9rem;
+}
+.sinopse{
+    color: white;
+    text-shadow: 2px 2px black ;
+    padding-top: 1.5rem;
+    font-size: 1.5rem;
+ 
+}
+.assista-agora{
+    padding: 0.7rem;
+    border-radius: 0.3rem;
+    border: none;
+    margin-top: 1rem;
+   font-size: 1.035rem;
+    padding-left: 1.8rem;
+}
+.icon-Play{
+    padding-right: 0.3rem;
+    font-size: 1.035rem;
+    position: absolute;
+    margin-top: 0.05rem;
+    margin-left: -1.3rem;
+}
+.saiba-mais{
+    padding: 0.7rem;
+    border-radius: 0.3rem;
+    border: none;
+    margin-top: 1rem;
+    background-color: rgba(255, 255, 255, 0.4);
+    padding-left: 1.5rem;
+}    
+.icon-Detail{
+    padding-right: 0.4rem;
+    font-size: 1rem;
+    position: absolute;
+    margin-top: -0.04rem;
+    margin-left: -1.2rem;
+}
+.botoes{
+    display: flex;
+    gap: 0.7rem;
+}
+.assista-agora:hover{
+    background-color: var(--azul);
+    cursor: pointer;
+}
+.saiba-mais:hover{
+    background-color: rgba(255, 255, 255, 0.3);
+    cursor: pointer;
+}
+.box-filme{
+    height: 100%;
+    width: 100%;
+    display: block;
+}
+.carrosel-filmes{
+    padding: 39rem 2rem 0rem;
+}
+.info-film{
+    color: white;
+    text-shadow: 2px 2px black;
+    font-size: 1.3rem;
+}
+#info-film1{
+    padding: 4.7rem 0rem;
+}
+#info-film2{
+    padding: 28.7rem 0rem;
+}
+.carrosel-filmes2{
+   
+    padding: 1rem 2rem;
+}    
