@@ -1,0 +1,108 @@
+@media screen and (max-width:1000px){
+    .titulo{
+        text-align: center;
+        font-size: 2rem;
+        color: white;
+        text-shadow: 2px 2px black ;
+        margin-top: -5.5rem;
+        margin-left: 2rem;
+    }
+    
+    .sinopse{
+        color: white;
+        text-shadow: 2px 2px black ;
+        padding-top: 1.5rem;
+        font-size: 0rem;
+     
+    }
+    .assista-agora{
+        padding: 0 0.7rem;
+        border-radius: 0.3rem;
+        border: none;
+        font-size: 0.9rem;
+        padding-left: 1.9rem;
+        text-align: justify;
+        margin-left: 1.5rem;
+        margin-top: -1rem;
+        margin-bottom: 2rem;
+          
+         
+    }
+    .icon-Play{
+        padding-right: 0.3rem;
+        font-size: 1.035rem;
+        position: absolute;
+        margin-top: 0.05rem;
+        margin-left: -1.3rem;
+    }
+    .saiba-mais{
+        padding: 0.7rem;
+        border-radius: 0.3rem;
+        border: none;
+        margin-top: 1rem;
+        background-color: rgba(255, 255, 255, 0.4);
+        padding-left: 1.5rem;
+        text-align: justify;
+       
+        margin-top: -1rem;
+        margin-bottom: 2rem;
+    }    
+    .icon-Detail{
+        padding-right: 0.4rem;
+        font-size: 1rem;
+        position: absolute;
+        margin-top: -0.04rem;
+        margin-left: -1.2rem;
+    }
+    a{
+        color:  rgb(50, 154, 252);
+        padding: 0 ;
+        font-size: 0rem;
+        font-weight: 700;   
+    }
+    .container h2{
+        color: rgb(50, 154, 252);
+        position:absolute;
+        left: 1rem;
+        top: 0.9rem;
+        cursor: pointer;
+        font-size: 1.1rem;
+    }
+    .logo2{
+        color: rgb(255, 255, 255);
+        font-size: 1rem;
+    }
+    .icon-Search{
+        color: var(--branco);
+        position: absolute;
+        top: 1rem;
+        right: 4.5rem;
+        cursor: pointer;
+    }
+    .icon-NotificationBell{
+        color: var(--branco);
+        position: absolute;
+        right: 2rem;
+        top: 1rem;
+        cursor: pointer;
+    }
+    #info-film1{
+        padding: 0.6rem 0rem 0.5rem 0rem;
+        margin-left: -1rem;
+        font-size: 1rem;
+    }
+    #info-film2{
+        padding: 36.7rem 0rem;
+        margin-left: -1rem;
+        font-size: 1rem;
+    }
+    .carrosel-filmes{
+        padding: 15rem 1rem 0rem;
+    }
+    .carrosel-filmes2{
+        padding: 2.5rem 1rem 0rem;
+    }
+    .item{
+        width: 10rem;
+    }
+}
